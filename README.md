@@ -1,1 +1,1 @@
-# w3lab-wp-img-lazyload
+# A wordpress plugin to lazy load IMGs
