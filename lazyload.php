@@ -49,7 +49,7 @@ class W3LAB_LAZYLOAD {
       return;
 
     $request_uri = strtolower($_SERVER['REQUEST_URI']) ;
-    if ( is_feed() OR preg_match( '/(xml)(feed)/', $preg_match) )
+    if ( is_feed() OR preg_match( '/(xml)(feed)/', $request_uri ) )
       return ;
 
     add_action( 'wp_head', array($this,'head') );
